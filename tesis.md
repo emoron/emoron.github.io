@@ -1,4 +1,4 @@
-## Gestión Automatizada Masiva de Documentos Adminsitrativos
+## Gestión Automatizada  de Documentos  Masivos par procesos Adminsitrativos
 
 A medida que las empresas evolucionan la cantidad de información disponible crece exponencialmente, de la misma manera cada vez es más problematico la gestión de la información incluida la documentación.
 

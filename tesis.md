@@ -20,4 +20,5 @@ A continuación algunas referencias para iniciar con el proyecto de tesis.
 * [Deploy Node Application for production](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04)
 * [Balancind Load in node application]
 * [node application containerized]
-* 
+* [parameters and routing](http://webapplog.com/url-parameters-and-routing-in-express-js/)
+* [reverse proxy](https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension)

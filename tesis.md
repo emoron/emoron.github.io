@@ -17,4 +17,7 @@ A continuación algunas referencias para iniciar con el proyecto de tesis.
 * [Domino Lab Nube para Ciencia de Datos](https://blog.dominodatalab.com/what-is-a-data-science-platform/)
 * [Descargar Beaker](http://beakernotebook.com/getting-started?linux&scroll)
 * [Beaker Examples](https://pub.beakernotebook.com/publications/category/560a8d87-db3d-4b2a-81ee-45dfea5d4585)
-
+* [Deploy Node Application for production](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04)
+* [Balancind Load in node application]
+* [node application containerized]
+* 

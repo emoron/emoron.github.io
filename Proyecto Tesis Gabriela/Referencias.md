@@ -2,6 +2,12 @@
 * https://editor.stamplay.com/
 * https://www.pubnub.com/blocks-catalog/
 * https://reviewable.io/
-* http://www.sinatrarb.com/
+* http://www.sinatrarb.com/    
+
 ## Data Sets
-http://data.ottawa.ca/
+http://data.ottawa.ca/    
+
+
+## APIs  
+
+* https://www.scaleapi.com/

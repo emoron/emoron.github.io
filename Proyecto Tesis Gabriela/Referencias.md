@@ -15,3 +15,11 @@ http://data.ottawa.ca/
 ## Tunneling
 
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-tunneling-on-a-vps
+
+## Hadoop
+* https://sagarruchandani.wordpress.com/2015/08/01/hadoop-setting-up-hadoop-2-6-0-single-node-on-aws-ec2-ubuntu-ami/
+* https://blog.insightdatascience.com/spinning-up-a-free-hadoop-cluster-step-by-step-c406d56bae42#.tlqouksf9
+* https://rstudio-pubs-static.s3.amazonaws.com/78508_abe89197267240dfb6f4facb361a20ed.html
+* https://rstudio-pubs-static.s3.amazonaws.com/78508_abe89197267240dfb6f4facb361a20ed.html
+* http://stackoverflow.com/questions/11593374/permission-denied-at-hdfs
+* http://livingforhadoop.blogspot.nl/2015/05/hadoop-270-installation-notes-on-ubuntu.html

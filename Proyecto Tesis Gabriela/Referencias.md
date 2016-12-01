@@ -23,3 +23,10 @@ http://data.ottawa.ca/
 * https://rstudio-pubs-static.s3.amazonaws.com/78508_abe89197267240dfb6f4facb361a20ed.html
 * http://stackoverflow.com/questions/11593374/permission-denied-at-hdfs
 * http://livingforhadoop.blogspot.nl/2015/05/hadoop-270-installation-notes-on-ubuntu.html
+
+
+## Otros Proyectos
+
+* http://blog.algorithmia.com/training-style-transfer-models/
+* https://arxiv.org/pdf/1603.03417v1.pdf
+* 

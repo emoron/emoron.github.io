@@ -29,4 +29,5 @@ http://data.ottawa.ca/
 
 * http://blog.algorithmia.com/training-style-transfer-models/
 * https://arxiv.org/pdf/1603.03417v1.pdf
-* 
+* https://github.com/emoron/emoron.github.io.git
+

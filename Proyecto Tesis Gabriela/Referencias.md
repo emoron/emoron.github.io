@@ -31,3 +31,16 @@ http://data.ottawa.ca/
 * https://arxiv.org/pdf/1603.03417v1.pdf
 * https://github.com/emoron/emoron.github.io.git
 
+## Microservices
+
+* http://blog.algorithmia.com/algorithm-economy-containers-microservices/
+* http://developers.algorithmia.com/algorithm-development/   
+* http://blog.algorithmia.com/deploying-deep-learning-cloud-services/
+* http://blog.algorithmia.com/cloud-hosted-deep-learning-models/
+* https://medium.com/@acrosson/building-a-deep-learning-box-d17d97e2905c#.qlanam8j5
+* http://blog.algorithmia.com/machine-learning-trends-future-artificial-intelligence-2016/
+* http://blogs.gartner.com/peter-sondergaard/the-internet-of-things-will-give-rise-to-the-algorithm-economy/
+* https://www.theguardian.com/technology/2015/may/28/google-brillo-operating-system-internet-of-things
+* http://panamax.io/get-panamax/
+* https://www.nginx.com/blog/event-driven-data-management-microservices/
+

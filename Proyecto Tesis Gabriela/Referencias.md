@@ -43,4 +43,4 @@ http://data.ottawa.ca/
 * https://www.theguardian.com/technology/2015/may/28/google-brillo-operating-system-internet-of-things
 * http://panamax.io/get-panamax/
 * https://www.nginx.com/blog/event-driven-data-management-microservices/
-
+* https://digitalocean.com]]

@@ -1,0 +1,76 @@
+\documentclass[oneside]{article}
+
+\usepackage[margin=2cm,nohead]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{verbatim}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  pdfauthor={https://learnr.wordpress.com}
+}
+
+\graphicspath{{./graphs/}}
+
+\title{World Population Trends}
+\author{\url{https://learnr.wordpress.com}}
+\date{\today}
+\raggedbottom
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\maketitle
+
+This report has been compiled based on the United Nations report World Population Prospects: The 2008 Revision (highlights available \href{http://www.un.org/esa/population/publications/wpp2008/wpp2008_highlights.pdf}{here}). The dataset can be accessed \href{http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12&c=1,2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1}{here}.
+
+\tableofcontents
+
+<% library(xtable); library(ggplot2)%>
+  
+  <% for (i in seq_along(names(popreportdata))) { -%>
+  
+  \pagebreak
+
+<% i = names(popreportdata)[i] %>
+  <% reportlist <- popreportdata[match(i,names(popreportdata))][[1]] %>
+  <% filename <- function(y){paste(gsub(" ", "_", i) , y, ".pdf", sep="")} %>
+  
+  <%=cat("\section{", i, "}", sep="") %>
+  
+  \begin{figure}[H]
+\centering
+<%= include_graph(width = 1, filename("_trend")) %>
+  <%= subfloat_graph(0.33, filename("_hist"), "Histogram") %>
+  <%= subfloat_graph(0.33, filename("_rank"), "Rank Curve") %>
+  <%= subfloat_graph(0.33, filename("_box"), "Boxplot") %>
+  \caption{Distribution plots}
+\end{figure}
+
+\begin{table}[h]
+\centering
+<%= subfloat_tbl(0.4, reportlist[[1]], "Top 5 Countries") %>
+  <%= subfloat_tbl(0.4, reportlist[[2]], "Bottom 5 Countries") %>
+  \caption{Population in 2005}
+\end{table}
+
+\begin{figure}
+\centering
+<%= subfloat_graph(0.5, filename("_abs_growth"), "Absolute Growth") %>
+  <%= subfloat_graph(0.5, filename("_ann_growth"), "Annual Compound Growth") %>
+  \caption{Growth charts 2010 - 2050}
+\end{figure}
+
+\begin{table}[H]
+\centering
+<%= subfloat_tbl(1, reportlist[[3]], "Top 5 Growing Countries") %>
+  \quad
+<%= subfloat_tbl(1, reportlist[[4]], "Bottom 5 Growing Countries") %>
+  \caption{Growth tables 2010 - 2050}
+\end{table}
+
+<% } -%>
+  
+  \end{document}
